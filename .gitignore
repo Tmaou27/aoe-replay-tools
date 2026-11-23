@@ -1,0 +1,27 @@
+﻿# Только актуальные проекты в корне
+/*
+!/.gitignore
+!/README.md
+!/aoe_from_mgx/
+!/aoe_coach/
+
+# Окружения и кеш
+.venv/
+__pycache__/
+*.pyc
+
+# Записи, логи, архивы и игровые файлы
+*.mgx
+*.mgz
+*.jsonl
+*.zip
+*.exe
+*.dll
+*.dat
+
+# Сгенерированные результаты
+aoe_result_*/
+overview*.html
+coach*.html
+coach*.json
+capture*
